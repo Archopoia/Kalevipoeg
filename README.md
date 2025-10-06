@@ -27,9 +27,8 @@ Survive ancient waves of Estonian folk monsters! Gather resources in an ever-gen
 | **Movement** | WASD |
 | **Look/Aim** | Mouse |
 | **Gather Resources** | Left Click (trees/rocks) |
-| **Upgrade Towers** | T (when near tower) |
+| **Build/Upgrade Towers** | T |
 
-**Note**: Resource gathering doesn't work in Build mode.
 
 ## 🏗️ Technical Features
 

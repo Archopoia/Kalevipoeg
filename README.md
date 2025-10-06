@@ -1,4 +1,4 @@
-# Estonian Folk Game Jam - Bronze Age Romance
+# Estonian Folk Game Jam
 
 **A 48-hour tower defense survival game inspired by Estonian folklore**
 

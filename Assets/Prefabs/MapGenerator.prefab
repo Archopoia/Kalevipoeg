@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &707247947833042686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7241834069317879478}
+  - component: {fileID: 1508073942893839543}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7241834069317879478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707247947833042686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -74.984, y: -0.0277, z: -74.989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508073942893839543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707247947833042686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebd28ccbc9dd6d49bdd8d068768d4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GridManager
+  width: 15
+  height: 15
+  landTilePrefabs:
+  - {fileID: 8400272769716189630, guid: 60d371b79710f1d4095cfbd5683137b5, type: 3}
+  - {fileID: 8634563755126732842, guid: 107cbfa70f4867249b394da34936e69f, type: 3}
+  - {fileID: 7780460383295435636, guid: 0f1f3a99d70602f4c894c5003cc2b743, type: 3}
+  - {fileID: 7698048912964005830, guid: 061bdb042eca9ab44b1adcd06f9e7e96, type: 3}
+  - {fileID: 4740866313015391364, guid: 77c7d40e3fcd8e244b99ffa723022c66, type: 3}
+  - {fileID: 8115301145272474090, guid: 39d8dd9b9a4e41342af06652287e1e69, type: 3}
+  - {fileID: 2706903811496452228, guid: dc0c1bf25fb42df4492a96b58959a379, type: 3}
+  - {fileID: 7932063866180182295, guid: eb15f84f1758cbc4b9d83bbc5d553933, type: 3}
+  - {fileID: 2517966217966496459, guid: dcbf735fb1db7914f8ee2befe7b6cdc2, type: 3}
+  - {fileID: 1159103859040632051, guid: 020101248e51dfd4ab75c7f34a5f5767, type: 3}
+  - {fileID: 5997796969576165991, guid: 5f86535f605ed2a4da1b0f659030cb4d, type: 3}
+  - {fileID: 5134036572525412774, guid: 2729d8e61ddcfbc4eb7fbe59c8c43d2f, type: 3}
+  - {fileID: 7457492085348927525, guid: 1aa853780efd4df408413d44d377f5c4, type: 3}
+  - {fileID: 8173369436927266528, guid: edc5d7586431fd5469c3a2e19169a47f, type: 3}
+  - {fileID: 1837318034912897802, guid: a0cad7c2c81f7c140bebe03a79fc4d06, type: 3}
+  - {fileID: 1380618806776731007, guid: e8cef114699f27448ba562eb7a42bf21, type: 3}
+  - {fileID: 8123686642975183829, guid: 6fc4af9afbc33f2439c3ca34dc9366c6, type: 3}
+  - {fileID: 4033831049865398544, guid: 9956457497dffe74dbf04539f67601cf, type: 3}
+  - {fileID: 4949847381184652978, guid: f248bd5fc7b82d749947e98a2c1a7901, type: 3}
+  - {fileID: 7464522745484395731, guid: ed740656f30092c4e8888ee759c9bbb8, type: 3}
+  - {fileID: 7635500428260987655, guid: 5c7416a83e1f99044abdc853daf42b19, type: 3}
+  - {fileID: 2705376560128418324, guid: 5e036afc24289b5439213e0173bc7254, type: 3}
+  - {fileID: 8259239753873770872, guid: f0a6152d31834a948abdaecac0cff69d, type: 3}
+  - {fileID: 113855777687572679, guid: b5c9a6928bc4c0a47b3fe087b6d8119b, type: 3}
+  - {fileID: 6904070755256647921, guid: 97a2509d19fd0d449ba439d223fa12d4, type: 3}
+  - {fileID: 4553844792165075216, guid: d41785fe2d0f5a44abf990895202bb0a, type: 3}
+  - {fileID: 1320041781618623066, guid: 179e687c76532644b8d4f50e84c75348, type: 3}
+  - {fileID: 3927905619639297681, guid: c5c84e3c676431c499cc219007849797, type: 3}
+  - {fileID: 8627902304534743625, guid: 14e0521c32ba596449cb83cd852b252a, type: 3}
+  - {fileID: 7877730765098207439, guid: 85ba7a36738b70748bf4814b49292e28, type: 3}
+  roadTilePrefabs:
+  - {fileID: 2458257841237599578, guid: 2089ec82b17540f4a9d3c2bc61c7d026, type: 3}
+  - {fileID: 6247150312591223239, guid: 99199bb71bb471b40bbf5a15544cc2e0, type: 3}
+  - {fileID: 873904046075803604, guid: 238aba98a831fe7469e2c4e0f27d09dd, type: 3}
+  - {fileID: 4854652181217042391, guid: f5b936da9b5df9c40bebbb213f02d5c0, type: 3}
+  tileSpacing: 0.9

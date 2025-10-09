@@ -242,3 +242,6 @@ public class CameraFadeSetup : MonoBehaviour
 
     #endregion
 }
+
+
+

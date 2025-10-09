@@ -146,15 +146,14 @@ public class TowerPlacementManager : MonoBehaviour
 
     void Update()
     {
-        // Try both input systems
-        bool oldInputT = Input.GetKeyDown(towerToggleKey);
+        // Use only Input System
         Key inputSystemKey = GetInputSystemKey(towerToggleKey);
         bool newInputT = Keyboard.current != null && Keyboard.current[inputSystemKey].wasPressedThisFrame;
 
-        // Toggle tower mode with T key (try both input systems)
-        if (oldInputT || newInputT)
+        // Toggle tower mode with T key
+        if (newInputT)
         {
-            Debug.Log($"TowerPlacementManager: T key pressed! Old input: {oldInputT}, New input: {newInputT}");
+            Debug.Log($"TowerPlacementManager: T key pressed!");
             ToggleTowerMode();
         }
 
@@ -286,13 +285,12 @@ public class TowerPlacementManager : MonoBehaviour
             }
         }
 
-        // Handle left click to place/upgrade tower (try both input systems)
-        bool oldInputClick = Input.GetMouseButtonDown(0);
+        // Handle left click to place/upgrade tower (use only Input System)
         bool newInputClick = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
 
-        if ((oldInputClick || newInputClick) && frontTile != null)
+        if (newInputClick && frontTile != null)
         {
-            Debug.Log($"TowerPlacementManager: Left click detected! Old input: {oldInputClick}, New input: {newInputClick}");
+            Debug.Log($"TowerPlacementManager: Left click detected!");
             Debug.Log($"TowerPlacementManager: Clicked on tile ({frontTile.gridX}, {frontTile.gridZ})");
 
             // Check if there's already a tower on this tile
